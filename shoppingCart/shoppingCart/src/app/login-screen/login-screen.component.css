@@ -5,5 +5,24 @@ float: left;
 }
 .NavigationLinks{
 float:left;
+}
 
+.carousalImages{
+width:100%;
+}
+.navbar-header{
+width:100%;
+}
+.footer{
+    padding: 10px;
+    bottom: 0px;
+    font-size: 13px;
+    background: blanchedalmond;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+        text-align: center;
+}
+.footer span a {
+    color: black;
 }
