@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { NavLinks } from './NavLinks';
 import { internalNavLinks } from './internalNavLinks';
 import {FooterLinks} from './FooterLinks';
+import { ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-login-screen',
   templateUrl: './login-screen.component.html',
@@ -56,3 +57,4 @@ FooterLinks : FooterLinks[] = [
 ]
 
 }
+

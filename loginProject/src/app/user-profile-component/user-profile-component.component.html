@@ -1,0 +1,24 @@
+
+<h1>Using Router : </h1> 
+<p id="content">
+Hiii Phani, you are a {{position}}
+</p>
+<p>Personal Details:</p>
+<ul>
+  <li>Mail : {{personalDetails.mail}}</li>
+  <li>Address : {{personalDetails.address}}</li>
+  <li>Phone : {{personalDetails.phone}}</li>
+</ul>
+<p>Team Members:</p>
+<ul>
+  <li *ngFor="let arr of TeamMembers">{{arr}}</li>
+</ul>
+Experience :  <div *ngIf="experience; else errorTemplate">{{experience}}</div>
+<ng-template #errorTemplate>Expecting value doesn't exists</ng-template>
+<br>
+<button [disabled]="isButtonDisable" (click)="buttonClickFunction($event)"><span *ngIf="isClickable">Click</span></button>
+<button [disabled]="isButtonDisable" (mouseenter)="mouseEnterFunction($event)"><span *ngIf="isClickable">Hover your mouse</span></button>
+<p>Fav Cities:</p>
+<ul>
+  <li *ngFor="let cityArray of citiesFromService">{{cityArray}}</li>
+</ul>

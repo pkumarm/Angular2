@@ -1,0 +1,54 @@
+div#siteLogo {
+    float: left;
+    width: 20%;
+}
+div#navLinksSection {
+    float: left;
+    width: 80%;
+}
+div#siteLogo {
+    float: left;
+}
+div#navLinksSection {
+    float: left;
+}
+
+a#loginButton{
+    background: #8e8484;
+    padding: 12px;
+    border-radius: 4px;
+    color: white;
+    margin: 10px;
+}
+a#registrationButton {
+    background: #8e8484;
+    padding: 12px;
+    border-radius: 4px;
+    color: white;
+    margin: 10px;
+}
+div#userActionButtons {
+    margin: 0%;
+    text-align: center;
+}
+div#loginForm {
+    margin-top: 5%;
+}
+input.inputTextBox {
+    margin: 10px;
+}
+
+.ng-valid[required], .ng-valid.required  {
+  border-left: 5px solid #42A948; /* green */
+}
+
+.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
+}
+
+.container{
+    margin: 0 0 100px; /* bottom = footer height */
+    padding: 25px;
+     position: relative;
+    min-height: 100%;
+}

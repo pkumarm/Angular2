@@ -1,0 +1,12 @@
+<span><input #newitem (keyup)="onKeyUp($event)" (blur)="onKeyUpBlur(newitem.value)" placeholder="on key up"></span><p>{{values}}</p>
+
+<input #newHero (keyup.enter)="addHero(newHero.value)" (blur)="addHero(newHero.value); newHero.value='' ">
+ <button (click)="addHero(newHero.value)">Add</button>
+
+ <ul><li *ngFor="let hero of heroes">{{hero}}</li></ul>
+
+
+
+
+
+ <router-outlet></router-outlet> 
