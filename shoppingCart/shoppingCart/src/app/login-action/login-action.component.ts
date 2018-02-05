@@ -7,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./login-action.component.css']
 })
 export class LoginActionComponent implements OnInit {
+  
  values = '';
+
+
   constructor() { }
 
   ngOnInit() {
